@@ -13,7 +13,7 @@ PROJECT_VERSION ?= v1.2.0
 # user's container runtime may not set DockerHub as default registry and auto-search on DockerHub
 GOFLAGS := "-mod=mod"
 GIT_COMMIT ?= $(shell git rev-parse --short HEAD)
-DOCKER_REGISTRY ?= docker.io/rocm
+DOCKER_REGISTRY ?= crmirror.lcpu.dev/rocm
 IMAGE_NAME ?= gpu-operator
 IMAGE_TAG_BASE ?= $(DOCKER_REGISTRY)/$(IMAGE_NAME)
 IMAGE_TAG ?= dev
