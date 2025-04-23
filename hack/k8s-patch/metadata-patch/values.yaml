@@ -29,7 +29,7 @@ controllerManager:
       allowPrivilegeEscalation: false
     image:
       # -- AMD GPU operator controller manager image repository
-      repository: docker.io/rocm/gpu-operator
+      repository: crmirror.lcpu.dev/rocm/gpu-operator
       # -- AMD GPU operator controller manager image tag
       tag: dev
     # -- Image pull policy for AMD GPU operator controller manager pod

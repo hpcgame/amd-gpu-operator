@@ -6,7 +6,7 @@ resources:
 
 images:
 - name: controller
-  newName: docker.io/rocm/gpu-operator
+  newName: crmirror.lcpu.dev/rocm/gpu-operator
   newTag: dev
 
 configMapGenerator:

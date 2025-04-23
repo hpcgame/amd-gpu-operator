@@ -109,7 +109,7 @@ USER_GID := $(shell id -g)
 DOCKER_BUILDER_TAG := v1.1
 DOCKER_BUILDER_IMAGE := $(DOCKER_REGISTRY)/gpu-operator-build:$(DOCKER_BUILDER_TAG)
 CONTAINER_WORKDIR := /gpu-operator
-BUILD_BASE_IMG ?= ubuntu:22.04
+BUILD_BASE_IMG ?= crmirror.lcpu.dev/docker.io/library/ubuntu:22.04
 GOLANG_BASE_IMG ?= golang:1.23
 
 ##################
